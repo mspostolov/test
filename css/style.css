@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
+    display: block;
+}
+
+body {
+    font: 12px/18px Arial, sans-serif;
+    width: 100%;
+}
+
+.page {
+    padding: 50px;
+}
+
+h1 {
+    margin-bottom: 30px;
+}
+
+.form-container,
+.letters-stat {
+    margin-bottom: 30px;
+}
+
+label,
+.letters-stat-label {
+    display: block;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+textarea {
+    width: 100%;
+    border: 1px solid #000;
+    padding: 10px;
+}
+
+.letters-stat-item {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.letters-stat-item .letter {
+    padding-right: 10px;
+    font-weight: bold;
+}
+
+.widget-stat {
+    width: 200px;
+}
+
+@media screen and (min-width: 768px) {
+    .statistic-container {
+        margin-bottom: 0;
+        display: flex;
+    }
+
+    .letters-stat {
+        padding-right: 50px;
+        margin-bottom: 0;
+    }
+}
+
+@media screen and (min-width: 970px) {
+    .content {
+        display: flex;
+    }
+
+    .form-container {
+        padding-right: 50px;
+        width: 30%;
+        margin-bottom: 0;
+    }
+}

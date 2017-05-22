@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Тестовое задание</title>
+    <link href="css/style.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+<div class="page">
+    <h1>Тестовое задание</h1>
+    <div class="content">
+        <div class="form-container">
+            <form name="textInsert">
+                <div class="form-item">
+                    <label>Поле ввода</label>
+                    <textarea name="letter" rows="10" placeholder="Введите текст"></textarea>
+                </div>
+            </form>
+        </div>
+        <div class="statistic-container">
+            <div class="letters-stat">
+                <div class="letters-stat-label">
+                    Вы ввели символы:
+                </div>
+            </div>
+            <div class="widget-stat">
+                <canvas id="statWidget" width="200" height="200"></canvas>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="js/script.js"></script>
+</body>
+</html>
